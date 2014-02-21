@@ -1,0 +1,9 @@
+{application,basicapi,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{basicapi_app,[]}},
+              {env,[]},
+              {modules,[basic_api_test,basicapi_app,basicapi_callback,
+                        basicapi_sup]}]}.
